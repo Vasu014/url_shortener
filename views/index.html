@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body style="width:100;">
+
+      <nav align="center">
+        URL Shortener
+      </nav>
+
+      <main class="container" style="width:100;">
+        <!--Main Shortening Form -->
+        <div class="container card-panel">
+          <!-- Here goes the form-->
+          <div class="row ">
+            <form >
+              <div class="col l8">
+                <div class="input-field">
+                  <input id="url-field" placeholder="Enter Long Url Here">
+                  
+                </div>
+
+              </div>
+
+              <div class="col l4" >
+                <br>
+                <a class="btn btn-shorten">Shorten Url</a>
+              </div>
+            </form>
+          </div>
+          <div class="divider"></div>
+          <!-- Here We display the short URL-->
+          <div class="row">
+            <div class="col-lg-12" id="link">  
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="container" align="center"></div>
+          Here goes the technology stack
+      </main>
+
+      <!-- Footer -->
+      <footer class="page-footer" style="position:absolute; bottom:0;width:100%;">
+        Made By: Vasu Bhardwaj
+      </footer>
+      
+      <!--Import jQuery before materialize.js-->
+      
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+      <script src="javascripts/shorten.js"></script>
+
+    </body>
+  </html>
