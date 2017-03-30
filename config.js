@@ -5,7 +5,7 @@ config.db = {};
 
 //The url shortening host
 //Shortened URL's will be this url + base58 ID
-config.webhost = 'https://simple-url-short.herokuapp.com//';
+config.webhost = 'https://simple-url-short.herokuapp.com/';
 
 //Your MongoDB host and database name
 
