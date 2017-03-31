@@ -9,7 +9,7 @@ var base58 = require('./base58');
 
 
 //create a database connection with our MongoDB database
-mongoose.connect('mongodb://' + config.db.host + '/' + config.db.name);
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://' + config.db.host + '/' + config.db.name);
 //grab the url model
 var Url = require('./models/url');
 
